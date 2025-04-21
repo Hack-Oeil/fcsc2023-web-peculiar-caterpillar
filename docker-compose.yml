@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  peculiar-caterpillar:
+    read_only: true
+    image: anssi/fcsc2023-web-peculiar-caterpillar:latest
+    ports:
+      - ${PORT}:8000
